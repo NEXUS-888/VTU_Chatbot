@@ -1,0 +1,53 @@
+{
+  "subject_code": "BCS515B",
+  "subject_name": "Artificial Intelligence",
+  "scheme": "2022",
+  "semester": 5,
+  "branch": "CSE",
+  "credits": 3,
+  "total_hours_of_pedagogy": 40,
+  "exam_pattern": {
+    "cie_marks": 50,
+    "see_marks": 50,
+    "duration_hours": 3
+  },
+  "modules": [
+    {
+      "number": 1,
+      "title": "Introduction & Intelligent Agents",
+      "description": "What is AI, the state of the art. Intelligent agents, agents and environments, concept of rationality, the nature of environments, structure of agents.",
+      "chapters": "Ch.1: 1.1, 1.4; Ch.2: 2.1, 2.2, 2.3, 2.4"
+    },
+    {
+      "number": 2,
+      "title": "Problem-Solving & Uninformed Search",
+      "description": "Problem-solving agents, example problems, searching for solutions, uninformed search strategies such as breadth-first, depth-first, etc.",
+      "chapters": "Ch.3: 3.1, 3.2, 3.3, 3.4"
+    },
+    {
+      "number": 3,
+      "title": "Informed Search & Logical Agents",
+      "description": "Informed search strategies, heuristic functions. Knowledge-based agents, the Wumpus world, logic, propositional logic, reasoning patterns in propositional logic.",
+      "chapters": "Ch.3: 3.5, 7.6; Ch.7: 7.1, 7.2, 7.3, 7.4"
+    },
+    {
+      "number": 4,
+      "title": "First Order Logic & Inference",
+      "description": "First-order logic representation revisited, syntax and semantics, using first-order logic, knowledge engineering. Propositional vs first-order inference, unification, forward chaining.",
+      "chapters": "Ch.8: 8.1, 8.2, 8.3, 8.4; Ch.9: 9.1, 9.2, 9.3"
+    },
+    {
+      "number": 5,
+      "title": "FOL Inference & Classical Planning",
+      "description": "Backward chaining, resolution in first-order logic. Classical planning: definition, algorithms for planning as state-space search, planning graphs.",
+      "chapters": "Ch.9: 9.4, 9.5; Ch.10: 10.1, 10.2, 10.3"
+    }
+  ],
+  "course_outcomes": [
+    "Explain the architecture and components of intelligent agents and their interaction with the AI environment.",
+    "Apply problem-solving agents and search strategies to solve a given problem.",
+    "Illustrate logical reasoning and knowledge representation using propositional and first-order logic.",
+    "Demonstrate proficiency in representing knowledge and solving problems using first-order logic.",
+    "Describe classical planning in the context of AI, including goals, constraints, and applications."
+  ]
+}
